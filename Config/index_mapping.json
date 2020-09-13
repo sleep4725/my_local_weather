@@ -1,0 +1,25 @@
+{
+  "mapping": {
+    "properties": {
+      "day"  : {"type": "integer"},
+      "hour" : {"type": "date", "format": "HH"},
+      "pop"  : {"type": "integer"},
+      "pty"  : {"type": "integer"},
+      "r06"  : {"type": "float"  },
+      "r12"  : {"type": "float"  },
+      "reh"  : {"type": "integer"},
+      "s06"  : {"type": "float"  },
+      "s12"  : {"type": "float"  },
+      "sky"  : {"type": "integer"},
+      "temp" : {"type": "float"  },
+      "tmn"  : {"type": "float"  },
+      "tmx"  : {"type": "float"  },
+      "wd"   : {"type": "integer"},
+      "wdEn" : {"type": "keyword"},
+      "wdKor": {"type": "keyword"},
+      "wfEn" : {"type": "keyword"},
+      "wfKor": {"type": "keyword"},
+      "ws"   : {"type": "double" }
+    }
+  }
+}
